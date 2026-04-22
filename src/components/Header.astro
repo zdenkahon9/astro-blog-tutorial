@@ -1,9 +1,11 @@
 ---
 import Navigation from './Navigation.astro';
+import { Menu } from './Menu';
 ---
 
 <header>
   <nav>
+    <Menu client:load />
     <Navigation />
   </nav>
 </header>
